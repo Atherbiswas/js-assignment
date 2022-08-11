@@ -12,6 +12,7 @@ function radianToDegree(radian){
 radianToDegree();
 
 
+//2.Fill extention checker
 function isJavaScriptFile(fileName){
     if(fileName.match('.js') == '.js'){
         return true;
