@@ -9,7 +9,8 @@ function radianToDegree(radian){
     const degrees = radian * (180 / pi);
     return degrees.toFixed(2);
 }
-radianToDegree();
+// radianToDegree();
+
 
 
 //2.Fill extention checker
@@ -21,7 +22,8 @@ function isJavaScriptFile(fileName){
         return false;
     }
 }
-isJavaScriptFile();
+// isJavaScriptFile();
+
 
 
 
@@ -38,7 +40,8 @@ function oilPrice(dieselQuantity, petrolQuatity, octaneQuantity){
     const totalCost = (perLitreDieselRate * dieselQuantity) + (perLitrePetrolRate * petrolQuatity) + (perLitreOctaneRate * octaneQuantity);
     return totalCost;
 }
-oilPrice();
+// oilPrice();
+
 
 
 //4. publicBusfare
@@ -57,15 +60,18 @@ function publicBusFare(people){
 publicBusFare();
 
 
+
 //5.isBestFriend
 function  isBestFriend(bestFriendOne, bestFriendTwo){
-    if(bestFriendOne.name.toLowerCase == bestFriendTwo.friend.toLowerCase && bestFriendOne.friend.toLowerCase == bestFriendTwo.name.toLowerCase){
+    if(bestFriendOne.name.toLowerCase() == bestFriendTwo.friend.toLowerCase() && bestFriendOne.friend.toLowerCase() == bestFriendTwo.name.toLowerCase()){
         return true;
     }
     else{
-        return false
+        return false;
     }
 }
 isBestFriend();
+
+
 
 
